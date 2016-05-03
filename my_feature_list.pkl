@@ -39,4 +39,8 @@ aS'long_term_incentive'
 p19
 aS'from_poi_to_this_person'
 p20
+aS'stocks_vs_payments'
+p21
+aS'salary_vs_payments'
+p22
 a.

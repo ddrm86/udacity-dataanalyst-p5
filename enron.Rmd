@@ -9,12 +9,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ```{r enron}
-library(plyr)
-library(gridExtra)
-library(ggplot2)
-library(GGally)
-library(scales)
-library(memisc)
 setwd("C:/Users/Administrador/Dropbox/estudios/dataAnalyst/p5/p5_enron")
 enron <- read.csv('enron.csv')
 enron <- subset(enron, select=-email_address)
@@ -34,10 +28,6 @@ subset(enron, enron$salary > 308607, select=c('salary', 'name'))
 enron <- enron[enron$name != 'TOTAL',]
 ```
 
-```{r}
-na_col_count <-sapply(enron, function(y) sum(length(which(is.na(y)))))
-na_col_count
-```
 
 ```{r}
 na_row_count <- apply(enron, 1, function(z) sum(is.na(z)))
