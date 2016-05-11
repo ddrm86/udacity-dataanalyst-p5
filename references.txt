@@ -1,0 +1,3 @@
+http://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/
+https://discussions.udacity.com/t/grid-search-with-feature-selection-worse-results-when-adding-new-features/167487/
+http://dshincd.github.io/blog/feautre-scaling/
